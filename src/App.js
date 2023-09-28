@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { FormLogIn } from "./components/FormLogIn";
+import {CardUI} from "./components/CardUI"
+import {CardPassword} from "./components/CardPassword"
+import { Routes,Route, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route exact path='/' element={<FormLogIn />} />
+        <Route  path='/card' element={<CardUI />} />
+        <Route  path='/cardPassword' element={<CardPassword />} />
+      </Routes>
     </div>
+    </Router>
   );
 }
 
