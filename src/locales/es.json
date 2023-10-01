@@ -1,0 +1,9 @@
+{
+    "login" :{
+        "log-in": "Acceder",
+        "use-your-uniandes-accound": "Usa tu cuenta uniandes",
+        "forgot-password": "¿Olvidaste tu contraseña?",
+        "password": "contraseña",
+        "confirm-log-in": "Iniciar sesión"
+    }
+}

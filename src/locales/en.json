@@ -1,0 +1,11 @@
+{
+    "login" :{
+        "log-in": "Log in",
+        "use-your-uniandes-accound": "Use ypur uniandes account",
+        "forgot-password": "¿Forgot ypur password?",
+        "password": "password",
+        "confirm-log-in": "Log-in",
+        "valid-value":"Por favor, ingresa un valor válido.",
+        "email": "email"
+    }
+}

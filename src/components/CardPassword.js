@@ -8,7 +8,6 @@ export function CardPassword() {
     const submitt = e => {
         e.preventDefault();
         const pass = e.target.password.value;
-
         if (pass!= null || pass !="") {
             navigate("/card")
         }
